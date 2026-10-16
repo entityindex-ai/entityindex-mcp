@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.entityindex/entityindex",
+  "title": "entityindex.ai",
+  "description": "Verified hotels in Andorra for AI agents: search by area, spa, pets, ski-in, family; official links.",
+  "version": "1.0.0",
+  "websiteUrl": "https://entityindex.ai/mcp-info/",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://entityindex.ai/mcp" }
+  ]
+}
